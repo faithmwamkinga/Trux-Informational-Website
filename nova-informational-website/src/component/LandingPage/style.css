@@ -1,0 +1,104 @@
+/* Default styles */
+.headers span {
+  max-width: 100%;
+  font-size: 80px;
+}
+
+.download-button {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #d36d23;
+  padding: 15px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  position: relative;
+  bottom: -30px;
+}
+.fast{
+  text-align: center;
+}
+
+.line {
+  width: 50%;
+  color: black;
+  margin: 20px auto;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: url(/public/img/image/image.jpg) center center no-repeat;
+  background-color: #e5e5e5;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  margin-bottom: 50px;
+
+ 
+}
+
+.intro h1 {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-size: 82px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.intro h1 span {
+  font-weight: 800;
+  color: #ff8800;
+}
+
+.intro p {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+header .intro-text {
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .headers span {
+    font-size: 35px;
+  }
+
+  .download-button {
+    font-size: 10px; 
+    padding: 8px 10px; 
+  }
+
+  .line {
+    width: 29%;
+    margin-bottom: 10px;
+  }
+
+  .intro {
+    background-position: center; 
+  }
+
+  .intro h1 {
+    font-size: 60px; 
+  }
+
+  .intro p {
+    font-size: 16px; 
+    margin-bottom: 10px; 
+    line-height: 24px;
+  }
+}
